@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/Header/Header'
+import ListItem from './components/ListItem/ListItem.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <Header/>
+      <ListItem />
     </div>
   );
 }
