@@ -1,19 +1,20 @@
-h1 {
+.header h1 {
     margin: 20px 10px 15px 20px;
     font-size: 50px;        
     background: -webkit-linear-gradient(#ADA996, #EAEAEA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+    cursor: default;
 }
 
-img {
+.header img {
     width: 40px;
     height: 40px;    
     transition: 0.4s;
 }
 
-.line {
+.header .line {
     margin-left: 20px;
     width: 500px;
     border: 1px solid #FFFFFF;
@@ -29,6 +30,6 @@ img {
     transform: rotate(25deg);    
 }
 
-.header:hover img+img {
+.header:hover img + img {
     transform: rotate(-25deg);    
 }

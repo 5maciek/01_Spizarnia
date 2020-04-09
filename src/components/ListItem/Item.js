@@ -5,8 +5,8 @@ function Item(props) {
 
     return (
         <li>
-            <button className="edit"></button>
-            <button className="remove"></button>
+            <button className="editItem"></button>
+            <button className="removeItem"></button>
             - {name},  <span>{quantity}</span> {unit}            
         </li>
     );
